@@ -3,7 +3,7 @@ Docker-compose-ruby-postgres
 
 Overview
 
-Docker と　docker-compose　を使ってRuby２．５．０　PostgreSQL　の環境を作成する
+Dockerとdocker-composeを使ってRuby、PostgreSQLの環境を作成する
 
 Create a Ruby 2.5.0 and PostgreSQL environment with Docker and docker-compose.
 
