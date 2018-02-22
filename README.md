@@ -40,4 +40,4 @@ docker-compose.ymlがあるディレクトリで
 
 ## Author
 
-[tcnksm](https://github.com/tcnksm)
+[Takahiro Koshika](https://github.com/kozimon0204)
