@@ -36,7 +36,7 @@ docker-compose.ymlがあるディレクトリで
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT](https://github.com/kozimon0204/Docker-compose-ruby-pg/blob/master/LICENSE)
 
 ## Author
 
