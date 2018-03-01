@@ -5,7 +5,7 @@ Overview
 
 Dockerとdocker-composeを使ってRuby、PostgreSQLの環境を作成する
 
-Create a Ruby 2.5.0 and PostgreSQL environment with Docker and docker-compose.
+Create a Ruby 2.5.0 and PostgreSQL 10.1 environment with Docker and docker-compose.
 
 ## Description
 Docker 17.12.0
@@ -14,7 +14,7 @@ docker-compose 1.19.0
 
 Ruby 2.5.0
 
-PostgreSQL
+PostgreSQL 10.1
 
 
 ## Demo
@@ -31,11 +31,25 @@ Docker 17.12.0
 docker-compose 1.19.0
 
 ## Usage
-docker-compose.ymlがあるディレクトリで
+docker-compose.ymlがあるディレクトリで以下のコマンドを実行
+
+Run these command and create container where docker-compose.yml is located.
 
 `docker-compose build`
 
 `docker-compose up -d`
+
+コンテナにログイン
+
+Login to the container.
+
+`docker-compose exec web bash`
+
+Railsアプリを作成
+
+Create rails application.
+
+`rails new <[APP NAME]> -d postgresql -BT`
 
 
 ## Install
